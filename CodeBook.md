@@ -16,21 +16,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### Original dataset information
 For the purpose of this project following files of the raw dataset were used - 
 - X_test.txt
-..-This file contains the test dataset.
+  -This file contains the test dataset.
 - X_train.txt
-..-This file contains the training dataset.
+  -This file contains the training dataset.
 - subject_train.txt
-..-This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
+  -This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
 - subject_test.txt
-..-This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
+  -This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
 - y_test.txt
-..-This file contains the test labels for the activity that the subjects performed.
+  -This file contains the test labels for the activity that the subjects performed.
 - y_train.txt
-..-This file contains the training labels for the activity that the subjecs performed.
+  -This file contains the training labels for the activity that the subjecs performed.
 - activity_labels
-..-This file links the class labels with their activity name.
+  -This file links the class labels with their activity name.
 - features.txt
-..-This file shows information about the variables used on the feature vector.
+  -This file shows information about the variables used on the feature vector.
 
 The entire dataset contains 563 variables.
 
