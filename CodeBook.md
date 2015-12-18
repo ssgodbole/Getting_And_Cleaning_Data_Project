@@ -15,22 +15,22 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Original dataset information
 For the purpose of this project following files of the raw dataset were used - 
-1. X_test.txt
-  This file contains the test dataset.
-2. X_train.txt
-  This file contains the training dataset.
-3. subject_train.txt
-  This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
-4. subject_test.txt
-  This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
-5. y_test.txt
-  This file contains the test labels for the activity that the subjects performed.
-6. y_train.txt
-  This file contains the training labels for the activity that the subjecs performed.
-7. activity_labels
-  This file links the class labels with their activity name.
-8. features.txt
-  This file shows information about the variables used on the feature vector.
+- X_test.txt
+    This file contains the test dataset.
+- X_train.txt
+    This file contains the training dataset.
+- subject_train.txt
+    This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
+- subject_test.txt
+    This file contains information about each subject who performed the activity for each window sample. There are a total of 30 subjects that are identified by numbers 1 to 30 in this file.
+- y_test.txt
+    This file contains the test labels for the activity that the subjects performed.
+- y_train.txt
+    This file contains the training labels for the activity that the subjecs performed.
+- activity_labels
+    This file links the class labels with their activity name.
+- features.txt
+    This file shows information about the variables used on the feature vector.
 
 The entire dataset contains 563 variables.
 
@@ -62,7 +62,7 @@ Steps to run analysis on the sub-setted dataset -
 
 ### Code book
 
-Two variables have been introduced in the final tidy dataset - activityName (factor with 6 levels) and subjectId (integer vector)
+**Two variables have been introduced in the final tidy dataset - activityName (factor with 6 levels) and subjectId (integer vector)**
 
 Following is a list of all the variables present in the final tidy dataset - 
 
