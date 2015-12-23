@@ -26,7 +26,6 @@ trainingData <- cbind(trainLabels, subjectTrainData, trainingData)
 
 # Convert numeric activity labels to descriptive labels
 testData$activityName <- sapply(testData$activityName, function(x) {
-  # print(x)
   x <- activityLabels[activityLabels$V1 == x, 2]
 })
 
@@ -69,5 +68,3 @@ colnames(tidy.data)[2] <- "subjectId"
 
 # Write dataset to file
 write.table(tidy.data, "./tidyData.txt", row.names = FALSE)
-
-write.csv(colnames(tidy.data), "./colnames.csv")
